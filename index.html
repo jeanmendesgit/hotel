@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Afogados</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Hotel Afogados</h1>
+    </header>
+
+    <nav>
+        <a href="#fotos">Fotos do Hotel</a>
+        <a href="#reservas">Faça sua reserva</a>
+        <a href="#contatos">Contato</a>
+    </nav>
+    
+    <main>
+        <section id="fotos">
+            <div>
+                <div>
+                    <h2>Imagens do Hotel</h2>
+                </div>
+                <div class="slides">
+                    <img src="img/img1.jpg" alt="Foto do hotel">
+                    <img src="img/img2.jpg" alt="Foto do hotel">
+                    <img src="img/img3.jpg" alt="Foto do hotel">
+                    <img src="img/img4.jpg" alt="Foto do hotel">
+                    <img src="img/img5.jpg" alt="Foto do hotel">
+                </div>
+            </div>
+        </section>
+
+        <section id="reservas">
+            <div class="reserva-geral">
+                <div class="form">
+                    <h2>Faça sua Reserva</h2>
+    
+                    <p>Preencha os dados abaixo para grantir sua acomodação.</p>
+    
+                    <form action="">
+                        <div class="formulario">
+                            <div class="agrupar">
+                                <label for="campo-nome">Nome</label>
+                                <input type="text" name="" id="campo-nome" placeholder="Seu nome">
+                            </div>
+                            
+                            <div class="agrupar">
+                                <label for="campo-sobrenome">Sobrenome</label>
+                                <input type="text" name="" id="campo-sobrenome" placeholder="Seu sobrenome">
+                            </div>
+        
+                            <div class="agrupar">
+                                <label for="campo-email">Email</label>
+                                <input type="email" name="" id="campo-email" placeholder="nome@exemplo.com">
+                            </div>
+                            
+                            <div class="agrupar">
+                                <label for="campo-telefone">Telefone / WhatsApp</label>
+                                <input type="tel" name="" id="campo-telefone" placeholder="(11) 99999-9999">
+                            </div>
+                            
+                            <div class="agrupar">
+                                <label for="campo-check-in">Data de Check-in</label>
+                                <input type="date" name="" id="campo-check-in">
+                            </div>
+        
+                            <div class="agrupar">
+                                <label for="campo-check-out">Data de Check-out</label>
+                                <input type="date" name="" id="campo-check-out">
+                            </div>
+                            
+                            <div class="agrupar hosp">
+                                <label for="campo-hospedes">Número de Hóspedes</label>
+                                <input type="number" name="" id="campo-hospedes" min="1" max="10">
+                            </div>
+                        </div>
+    
+                        <button type="submit">Confimar Reserva</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section id="contatos">
+            <div>
+                <div>
+                    <h2>Contatos</h2>
+                </div>
+                <div class="icones">
+                    <img src="icon/facebook.png" alt="Icon">
+                    <img src="icon/instagram.png" alt="Icon">
+                    <img src="icon/whatsapp.png" alt="Icon">
+                    <img src="icon/facebook-messenger.png" alt="Icon">
+                    <img src="icon/twitter.png" alt="Icon">
+                    <img src="icon/telegram.png" alt="Icon">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por JM</p>
+    </footer>
+</body>
+</html>

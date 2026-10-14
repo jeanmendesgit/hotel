@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h2 {
+    text-align: center;
+    padding: 20px;
+}
+
+header {
+    width: 100%;
+    height: 10vh;
+
+    background-image: linear-gradient(to top, #EFE7E0, #ddcec5);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 45px;
+    text-align: center;
+}
+
+nav {
+    width: 100%;
+    height: 5vh;
+
+    background-color: #cec2b7;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    transition: 0.1s;
+}
+
+nav a:hover {
+    color: chocolate;
+    scale: 1.1;
+    transition: 0.1s;
+}
+
+main {
+    width: 100%;
+    background-color: #FAF8F5;
+    min-height: 100%;
+}
+
+section {
+    border: solid 1px rgb(214, 214, 214);
+    min-height: 35vh;
+}
+
+#fotos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slides {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#fotos img {
+    max-width: 720px;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 20px 1px rgb(0 0 0 / 0.2);
+    transition: 0.2s;
+}
+
+#fotos img:hover {
+    scale: 1.02;
+    transition: 0.2s;
+}
+
+#reservas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.reserva-geral {
+    width: 100%;
+    max-width: 720px;
+}
+
+.form {
+    border: 1px solid #E6DDD4;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 4px 4px 20px 1px rgb(0 0 0 / 0.2);
+}
+
+.form p {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.formulario {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+
+.agrupar {
+    display: flex;
+    flex-direction: column;
+}
+
+.agrupar.hosp {
+    grid-column: span 2;
+}
+
+#reservas label, input {
+    padding: 8px;
+    margin: 5px;
+}
+
+#reservas input {
+    background-color: #EFE7E0;
+    border: 1px solid #ddcec5;
+    border-radius: 6px;
+}
+
+#reservas button {
+    display: block;
+    margin: 20px auto;
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #ddcec5;
+    background-color: #ddcec5;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+#reservas button:hover {
+    background-color: chocolate;
+    color: white;
+    transform: translateY(-2px);
+    scale: 1.03;
+    transition: 0.3s;
+    box-shadow: 0px 4px 10px rgb(0, 0, 0, .2);
+}
+
+#contatos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icones img {
+    width: 30px;
+    margin: 0px 30px;
+    transition: 0.2s;
+}
+
+.icones img:hover {
+    scale: 1.15;
+    transition: 0.2s;
+}
+
+footer {
+    width: 100%;
+    height: 10vh;
+    background-image: linear-gradient(to bottom, #EFE7E0, #ddcec5);
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+footer a {
+    text-align: center;
+}
